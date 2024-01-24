@@ -4,15 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hockey's Tutorial</title>
-   <!-- Tailwind or Carousel -->
-   <link
-   href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css"
-   rel="stylesheet"
-   type="text/css"
- />
- <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind or Carousel -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
 
-<!-- link CSS -->
+    <!-- link CSS -->
     <link rel="stylesheet" href="./styles/style.css" />
 
     <!-- Google Fonts -->
@@ -24,12 +24,9 @@
     />
   </head>
   <body class="font-[MANROPE]">
-    
-   
-    Assingment-Project-3
-<header class="md:container md:mx-auto">
-  <!-- Added a navbar bar section -->
-  <nav class=" text-white mt-4 lg:mt-10 flex justify-between">
+    <header class="md:container md:mx-auto">
+    <!-- Added a navbar bar section -->
+    <nav class=" text-white mt-4 lg:mt-10 flex justify-between">
     <div class="flex space-x-36">
       <div class="flex space-x-6">
         <img class="lg:hidden  " src="./Images/Frame.svg" alt="">
@@ -44,15 +41,15 @@
       </div>
     </div>
     <div class="flex space-x-4">
-      <img class="hidden lg:flex"  src="../Images/Frame (1).svg" alt="">
+      <img class="hidden lg:flex"  src="./Images/Frame (1).svg" alt="">
       <button class="bg-[#FF4240] text-white text-base w-32 h-8 rounded-md hover:bg-slate-600 duration-300">
           Get Ticket
       </button>
     </div>
   </nav>
 
-   <!-- Slider or Carulsol -->
-   <div class="carousel w-full mt-4 lg:mt-8 ">
+    <!-- Slider or Carulsol -->
+    <div class="carousel w-full mt-4 lg:mt-8 ">
     <!-- Slide 1 -->
     <div id="slide1" class="carousel-item relative w-full">   
     <div class="relative">
@@ -70,11 +67,11 @@
       </div>
     </div>
 
- <!-- Slide 2 -->
- <div id="slide1" class="carousel-item relative w-full">   
+    <!-- Slide 2 -->
+    <div id="slide1" class="carousel-item relative w-full">   
   
   <div class="relative">
-    <img src="../Images/1.png" alt="" class="w-full object-cover">
+    <img src="./Images/1.png" alt="" class="w-full object-cover">
     <div class="bg-[#131318]  w-full lg:w-[500px] lg:absolute top-[74%] left-[52%] px-6 lg:py-2 sm:mt-6">
       <h1 class="font-extrabold text-2xl text-white">Meet all the heroes from the filed</h1>
       <p class="text-[rgba(255, 255, 255, 0.60)] text-base font-semibold">Accusamus veniam accusantium dolorem alias impedit deserunt, nobis delectus eveniet non similique unde libero
@@ -89,40 +86,166 @@
   </div>
 </header>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- Main Section -->
-    <!-- <main class="max-w-7xl mx-auto"> -->
+    <main class="md:container md:mx-auto">
       <!-- Radial Progress Bar -->
-      <!-- <section class="md:container md:mx-auto bg-slate-400 h-[500px]">
+      <section class="md:container md:mx-auto lg:h-[500px]">
         <div>
-          <div class="text-center pt-10 bg-green-600">
-            <h1>Professional Hockeys Club</h1>
-            <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
-          </div>                          
-           <div class="bg-cyan-600 h-80">
-            <div class="radial-progress text-error text-black" style="--value:70;" role="progressbar">87%</div>
-           </div>
-          
+          <div class="text-center pt-10 space-y-4">
+            <h1 class="text-4xl text-[#131318] font-extrabold">
+              Professional Hockeys Club
+            </h1>
+            <p class="text-base font-medium">
+              Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+              turpis placerat
+              <br />
+              dolor. Purus urna in sit nullam proin.
+            </p>
+          </div>
+
+          <!-- Details -->
+          <div class="grid grid-cols-1 lg:grid-cols-4 mt-8 lg:mt-12">
+            <!-- player -->
+            <div class="space-y-4 items-center text-center w-full lg:w-full">
+              <div
+                class="radial-progress text-error text-[#FF4240]"
+                style="--value: 87"
+                role="progressbar"
+              >
+                <span class="text-black font-bold">87%</span>
+              </div>
+              <h3 class="text-center text-lg text-[#131318] font-semibold">
+                Prayer Facility
+              </h3>
+              <p
+                class="text-base text-[rgba(19, 19, 24, 0.60)] font-normal ml-4"
+              >
+                Amet consectetur. Condimentum dignissim adipiscing .
+              </p>
+            </div>
+
+            <!-- Coach -->
+            <div class="space-y-4 items-center text-center mt-4 lg:mt-0">
+              <div
+                class="radial-progress text-error text-[#49D293] mx-24"
+                style="--value: 95"
+                role="progressbar"
+              >
+                <span class="text-black font-bold">95%</span>
+              </div>
+              <h3 class="text-center text-lg text-[#131318] font-semibold">
+                Experienced Coach
+              </h3>
+
+              <p
+                class="text-base text-[rgba(19, 19, 24, 0.60)] font-normal ml-4"
+              >
+                Amet consectetur. Condimentum dignissim adipiscing .
+              </p>
+            </div>
+
+            <!-- Senior Player -->
+            <div class="space-y-4 items-center text-center mt-4 lg:mt-0">
+              <div
+                class="radial-progress text-error text-[#FFB546] mx-24"
+                style="--value: 90"
+                role="progressbar"
+              >
+                <span class="text-black font-bold">90%</span>
+              </div>
+              <h3 class="text-center text-lg text-[#131318] font-semibold">
+                Senior Player
+              </h3>
+              <p
+                class="text-base text-[rgba(19, 19, 24, 0.60)] font-normal ml-4"
+              >
+                Amet consectetur. Condimentum dignissim adipiscing .
+              </p>
+            </div>
+
+            <!-- Traning -->
+            <div class="space-y-4 items-center text-center mt-4 lg:mt-0">
+              <div
+                class="radial-progress text-error text-[#4C8DF1] mx-24"
+                style="--value: 80"
+                role="progressbar"
+              >
+                <span class="text-black font-bold">80%</span>
+              </div>
+              <h3 class="text-center text-lg text-[#131318] font-semibold">
+                Training Ground
+              </h3>
+              <p
+                class="text-base text-[rgba(19, 19, 24, 0.60)] font-normal ml-4"
+              >
+                Amet consectetur. Condimentum dignissim adipiscing .
+              </p>
+            </div>
+          </div>
         </div>
-      </section> -->
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- Program Section -->
+  <section class="md:container md:mx-auto  ">
+    <!-- Progam Title -->
+    <div class="text-center pt-10 space-y-5">
+        <h1 class="text-4xl font-extrabold text-[#131318]">Program Section</h1>
+        <p class="text-[rgba(19, 19, 24, 0.60)] text-base font-medium">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin.</p>
+    </div>
+
+    <!-- Program Banner -->
+   <div class="grid grid-cols-1 lg:grid-cols-2 mt-16 gap-4">
+
+      <!-- program banner-one -->
+    <div class="background  bg-cover bg-center  lg:h-[360px]  bg-no-repeat ">
+      <div class="m-10  lg:mt-32 lg:w-[495px] mx-12 space-y-2 ">
+        <h3 class="text-3xl font-extrabold text-white">Junior Program</h3>
+        <p class="text-base font-medium text-white">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+        <button class="btn btn-secondary bg-[#FF4240] border-0">Register Now!</button>
+      </div>
+    </div>
+
+
+    <!-- Program-Banner-2 -->
+    <div class="background-1 bg-cover bg-center  lg:h-[360px] bg-no-repeat">       
+      <div class="mt-7  pb-6 lg:mt-32 lg:w-[495px] mx-12 space-y-2">
+        <h3 class="text-3xl font-extrabold text-white">Teenager Program</h3>
+        <p class="text-base font-medium text-white">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+        <button class="btn btn-secondary bg-[#FF4240] border-0">Register Now!</button>
+      </div>
+    </div>   
+   </div>
+
+
+   <!-- Program-Banner-3 -->
+   <div class="background-2  bg-cover bg-center lg:h-[360px] bg-no-repeat mt-10">       
+    <div class="mt-[-5px]  lg:mt-4 pt-36 pb-6 lg:w-[550px] mx-12 space-y-2">
+      <h3 class="text-3xl font-extrabold text-white">Teenager Program</h3>
+      <p class="text-base font-medium text-white">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+      <button class="btn btn-secondary bg-[#FF4240] border-0">Register Now!</button>
+    </div>
+   </div>
+
+  </section>
+
+
+
+
     </main>
 
     <!-- Footer Section -->
-    <footer>
-      
-    </footer>
+    <footer></footer>
   </body>
 </html>
